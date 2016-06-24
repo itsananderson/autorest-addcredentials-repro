@@ -1,0 +1,44 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "beta",
+        "title": "Power BI Beta API"
+    },
+    "host": "api.powerbi.com",
+    "schemes": [
+        "https"
+    ],
+    "consumes": [],
+    "produces": [],
+    "paths": {
+        "test/widgets": {
+            "get": {
+                "tags": [],
+                "summary": "Gets foo",
+                "operationId": "Widget_getWidgets",
+                "produces": [ "application/json" ],
+                "parameters": [],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/foo"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "foo": {
+            "type": "object",
+            "description": "Foo",
+            "properties": {
+                "fooId": {
+                    "type": "string",
+                    "description": "The foo id"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "autorest-addcredentials-repro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsananderson/autorest-addcredentials-repro.git"
+  },
+  "author": "Will Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsananderson/autorest-addcredentials-repro/issues"
+  },
+  "homepage": "https://github.com/itsananderson/autorest-addcredentials-repro#readme",
+  "dependencies": {
+    "ms-rest": "^1.14.3"
+  }
+}
